@@ -15,4 +15,4 @@ AWS CloudTrail is a service that provides a detailed history of AWS API calls ma
 - Integration and Customization: CloudTrail integrates seamlessly with other AWS services, allowing users to create custom rules, alerts, and triggers for specific events.
 
 
-## Working of AWS Cloud Trail 
+## Working of AWS Cloud Trai:
