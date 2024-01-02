@@ -38,7 +38,7 @@ In AWS, two main types of trails can be created within AWS CloudTrail, each serv
   Use cases: Data event trails are particularly useful for tracking user interactions with sensitive data, ensuring compliance, and monitoring for unauthorized access or modifications to data stored in AWS services.
 
 
-## Best Practices for AWS CloudTrail Implementation
+## Best Practices for AWS CloudTrail Implementation:
 
 - Enable CloudTrail Across All AWS Regions: Ensure comprehensive coverage by activating CloudTrail in all regions where AWS services are utilized.
 
