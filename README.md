@@ -20,3 +20,10 @@ AWS CloudTrail is a service that provides a detailed history of AWS API calls ma
 CloudTrail operates by continuously recording API activity in an AWS account and storing the resulting log files in an Amazon S3 bucket. Users can then access these log files to review, analyze, and respond to events. Additionally, CloudTrail can be configured to deliver real-time notifications through Amazon CloudWatch Events, enabling immediate action based on specific events or patterns.
 
 In AWS, two main types of trails can be created within AWS CloudTrail, each serving distinct purposes:
+
+- Management Trails
+Default Management Trail: AWS automatically creates a default management trail for each region in an AWS account when CloudTrail is initially enabled. This trail logs all management events performed within an AWS account by default.
+
+Custom Management Trails: Users can create custom trails to capture specific management events or data sources. These trails offer flexibility in choosing the specific AWS services, regions, and types of events to log. Custom trails allow for more tailored logging and analysis based on unique requirements.
+
+Use cases: Management trails are typically used for compliance, operational troubleshooting, governance, and auditing purposes. They help in tracking management actions performed by users or automated processes within an AWS account.
