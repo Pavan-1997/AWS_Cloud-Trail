@@ -22,7 +22,8 @@ CloudTrail operates by continuously recording API activity in an AWS account and
 In AWS, two main types of trails can be created within AWS CloudTrail, each serving distinct purposes:
 
 - Management Trails
-Default Management Trail: AWS automatically creates a default management trail for each region in an AWS account when CloudTrail is initially enabled. This trail logs all management events performed within an AWS account by default.
+
+  Default Management Trail: AWS automatically creates a default management trail for each region in an AWS account when CloudTrail is initially enabled. This trail logs all management events performed within an AWS account by default.
 
   Custom Management Trails: Users can create custom trails to capture specific management events or data sources. These trails offer flexibility in choosing the specific AWS services, regions, and types of events to log. Custom trails allow for more tailored logging and analysis based on unique requirements.
   
