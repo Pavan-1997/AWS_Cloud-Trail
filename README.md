@@ -28,3 +28,9 @@ In AWS, two main types of trails can be created within AWS CloudTrail, each serv
   Custom Management Trails: Users can create custom trails to capture specific management events or data sources. These trails offer flexibility in choosing the specific AWS services, regions, and types of events to log. Custom trails allow for more tailored logging and analysis based on unique requirements.
   
   Use cases: Management trails are typically used for compliance, operational troubleshooting, governance, and auditing purposes. They help in tracking management actions performed by users or automated processes within an AWS account.
+
+- Data Events Trails
+
+  Data Events Trails: These trails focus on logging data events related to specific AWS services. Unlike management trails that capture management actions, data events trails focus on logging activities related to the resources and data within those resources (e.g., S3 object-level actions, Lambda function invocations).
+
+  Use cases: Data event trails are particularly useful for tracking user interactions with sensitive data, ensuring compliance, and monitoring for unauthorized access or modifications to data stored in AWS services.
