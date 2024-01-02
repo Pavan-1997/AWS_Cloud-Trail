@@ -17,7 +17,7 @@ AWS CloudTrail serves as a foundational element in ensuring the security, compli
 - Integration and Customization: CloudTrail integrates seamlessly with other AWS services, allowing users to create custom rules, alerts, and triggers for specific events.
 
 
-## Working of AWS Cloud Trai:
+## Working of AWS Cloud Trail:
 
 CloudTrail operates by continuously recording API activity in an AWS account and storing the resulting log files in an Amazon S3 bucket. Users can then access these log files to review, analyze, and respond to events. Additionally, CloudTrail can be configured to deliver real-time notifications through Amazon CloudWatch Events, enabling immediate action based on specific events or patterns.
 
